@@ -37,4 +37,78 @@ pip install -r requirements.txt
 
 # 5. Run DevBuddy
 python tool.py
+```
 
+---
+
+## 📦 Available Commands
+
+Here's a quick look at what you can do with DevBuddy:
+
+| Command | Description |
+|--------|-------------|
+| `help` | Shows the help message |
+| `clear` | Clears the screen |
+| `version` | Shows tool version |
+| `providers list` | Lists all available AI providers |
+| `apikeys list` | Lists all saved API keys |
+| `apikeys add <provider id> <key> <model name>` | Adds a new API key |
+| `apikeys delete <key id>` | Deletes an API key |
+| `env list` | Lists all environments |
+| `env new <path>` | Creates a new environment |
+| `env delete <environment id>` | Deletes an environment |
+| `projects list` | Lists all projects |
+| `projects new <environment id> <apikey id>` | Creates a new project |
+| `projects delete <project id>` | Deletes a project |
+| `projects open <project id>` | Opens a project and starts the interactive coding session |
+| `exit` | Exits DevBuddy |
+
+> 🧠 Tip: Use `projects open` to dive into an AI-powered coding session inside your chosen environment.
+
+---
+
+## 🌱 Getting Started
+
+Once installed, try running:
+
+```bash
+python devbuddy.py
+```
+
+From there, you can:
+
+- Add an API key using:  
+  `apikeys add openai YOUR_API_KEY gpt-3.5-turbo`
+
+- Create a coding environment:  
+  `env new ./my_project_env`
+
+- Create a new project:  
+  `projects new 1 1`
+
+- Start coding with AI:  
+  `projects open 1`
+
+DevBuddy will walk you through the rest.
+
+---
+
+## 🧩 Extending DevBuddy
+
+Want to add new providers or customize your prompts? DevBuddy is built to be modular and tweak-friendly. Dive into the code and make it your own!
+
+---
+
+## 🙌 Contributing
+
+Contributions, ideas, and suggestions are always welcome. If you’ve got a cool idea for a feature or spot a bug, feel free to open an issue or submit a pull request.
+
+---
+
+## 📄 License
+
+Licensed under the MIT License.
+
+---
+
+## 👨‍💻 Created by A. Jagan Karthick – Because coding should feel like a team effort.
