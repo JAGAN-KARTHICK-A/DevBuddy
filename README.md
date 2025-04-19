@@ -16,8 +16,6 @@ Here’s a peek at DevBuddy in action:
 
 ---
 
----
-
 ## ✨ Features
 
 - 💬 **Chat with AI models** in your terminal
