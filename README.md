@@ -72,7 +72,7 @@ Here's a quick look at what you can do with DevBuddy:
 Once installed, try running:
 
 ```bash
-python devbuddy.py
+python tool.py
 ```
 
 From there, you can:
