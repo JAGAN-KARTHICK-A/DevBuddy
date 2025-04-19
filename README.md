@@ -6,6 +6,18 @@ Whether you're coding solo or just need someone (well, something) to talk code w
 
 ---
 
+## 📸 Screenshots
+
+Here’s a peek at DevBuddy in action:
+
+| Home Screen                 |
+|-----------------------------|
+| ![Home](screenshots/devbuddy.png) 
+
+---
+
+---
+
 ## ✨ Features
 
 - 💬 **Chat with AI models** in your terminal
