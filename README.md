@@ -23,7 +23,7 @@ Make sure you have Python 3.7+ installed.
 
 ```bash
 # 1. Clone the repo
-git clone [https://github.com/JAGAN-KARTHICK-A/devbuddy.git](https://github.com/JAGAN-KARTHICK-A/DevBuddy)
+git clone https://github.com/JAGAN-KARTHICK-A/devbuddy.git
 
 # 2. Navigate into the project folder
 cd devbuddy
