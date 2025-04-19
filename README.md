@@ -78,7 +78,7 @@ python devbuddy.py
 From there, you can:
 
 - Add an API key using:  
-  `apikeys add openai YOUR_API_KEY gpt-3.5-turbo`
+  `apikeys add <provider-id> <api-key> <model-name>`
 
 - Create a coding environment:  
   `env new ./my_project_env`
